@@ -5,118 +5,142 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
-    <title>Sucursales
+    <title>Sucursales</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 
-    </title>
 </head>
-<body class="container-suc">
-    <!-- <section class="container"> -->
-        <section class="header-suc">
-            <div class="contact-bar">
-                <div class="contact-img">
-                    <img class="img-bar mail-img" src="/images/mail.png" alt="" hspace="10px"><p class="mail-p">latradicioncarnicerias@gmail.com</p>
-                    <img class="line-img" src="/images/line.png" alt=""><img class="img-bar phone-img" src="/images/phone.png" alt="" hspace="10px"><p class="phone-p"> Tel.: +54 383 4455815</p>
-                </div>
-                <div class="rrss-bar">
-                    <a href="https://www.facebook.com/latradicion.carnicerias.9" target="_blank"><img src="/images/fb.png" ></a>
-                    <a href="https://twitter.com/" target="_blank"><img src="/images/tw.png" ></a>
-                    <a href="https://www.instagram.com/latradicioncarnicerias/" target="_blank"><img src="/images/inst.png" ></a>
-                </div>       
+<body>
+ 
+<div class="container">
 
+    <!-- inicio header -->
+    <header class="container header">
+      <div class="row barra-contactos contact-bar row-no-margin">
+         <div class="col-lg-8 col-md-12 contact-col text-center">
+              <i class="fas fa-envelope"></i> 
+              <span>latradicioncarnicerias@gmail.com</span>
+              <i class="fas fa-phone" id="phone"></i>
+              <span id="phone-text">Tel.: +54 383 4455815</span>              
+          </div>
+          <div class="col-4 rrss-bar text-center">
+              <!-- Facebook -->
+              <a href="https://www.facebook.com/latradicion.carnicerias.9" target="_blank" class="text-end"><i class="fab fa-facebook-f"></i></a>
+            
+              <!-- Twitter -->
+              <a href="https://twitter.com/" target="_blank" class="text-center"><i class="fab fa-twitter"></i></a>
+              
+              <!-- Google -->
+              <a href="https://www.google.com.ar/search?q=la%20tradicion%20carnicerias&sxsrf=ALiCzsbDSFNQ7NEV3ljwU4kg-5AjJbOisg:1654285527330&source=hp&ei=02SaYrDsIK3T1sQPs4SY-A4&iflsig=AJiK0e8AAAAAYppy49MirLTbTN61LgnRVgKdpxNRIkWW&ved=2ahUKEwitp9rphZL4AhWdsJUCHb_5AI0QvS56BAg6EAE&uact=5&oq=la+tradicion+carnicerias&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWMgYIABAeEBYyAggmMgIIJjICCCYyAggmMgIIJjoECCMQJzoLCAAQgAQQsQMQgwE6CAgAELEDEIMBOhEILhCABBCxAxCDARDHARDRAzoRCC4QsQMQgwEQxwEQ0QMQ1AI6CAguELEDEIMBOgQIABBDOgoILhDHARCvARAnOgcILhDUAhBDOhEILhCABBCxAxCDARDHARCvAToOCC4QsQMQgwEQxwEQrwE6CwguEIAEELEDEIMBOgUILhCABDoICAAQgAQQsQM6CAguEIAEENQCOgsILhCABBDHARCvAToICAAQgAQQyQM6CAgAEB4QDxAWUABY_w9glRFoAHAAeAGAAbIDiAHxH5IBCTAuOS43LjEuMZgBAKABAQ&sclient=gws-wiz&tbs=lf:1,lf_ui:10&tbm=lcl&rflfq=1&num=10&rldimm=15328862911610512857&lqi=ChhsYSB0cmFkaWNpb24gY2FybmljZXJpYXNI34fY58urgIAIWiYQABABEAIYABgBGAIiGGxhIHRyYWRpY2lvbiBjYXJuaWNlcmlhc5IBDGJ1dGNoZXJfc2hvcA&phdesc=zVsPXzc2t3o&sa=X&rlst=f#rlfi=hd:;si:15328862911610512857,l,ChhsYSB0cmFkaWNpb24gY2FybmljZXJpYXNI34fY58urgIAIWiYQABABEAIYABgBGAIiGGxhIHRyYWRpY2lvbiBjYXJuaWNlcmlhc5IBDGJ1dGNoZXJfc2hvcA,y,zVsPXzc2t3o;mv:[[-28.452644099999997,-65.78369049999999],[-28.4777468,-65.78780689999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3,lf:1" target="_blank" class="text-center"><i class="fab fa-google"></i></a>
+
+              <!-- Instagram -->
+              <a href="https://www.instagram.com/latradicioncarnicerias/" target="_blank" class="text-start"><i class="fab fa-instagram"></i></a>
+
+              <!-- Whatsapp -->
+              <a href="https://wa.me/543834905528" target="_blank" class="text-center"><i class="fab fa-whatsapp"></i></i></a>
+
+          </div>
+      </div>
+      <div class="row barra-nav row-no-margin">
+        <div class="col-4 img-nav d-flex justify-content-end">
+            <img src="/images/logo_ltc.png" height="160vh" alt="">
+        </div>
+        <div class="col-8 row row-nav">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="/index.html">INICIO</a>
+                  <a class="nav-link" href="/contacto.html">CONTACTO</a>
+                  <a class="nav-link" href="/nosotros.html">NOSOTROS</a>
+                  <a class="nav-link" href="/productos.html">LISTA DE PRECIOS</a>
+                  <a class="nav-link" href="/sucursales.html">SUCURSALES</a>
+                </div>
+              </div>
             </div>
-            <div class="content-bar">
-                <img class="logo-bar" src="/images/logo_ltc.jpg" alt="">
-                </img>
-                <!-- inicio nav desplegable -->
-                <div class="navcontainer-div">
-                    <img class="navlines-img" src="/images/nav-lines.png" alt="">    
-                    <div class="navhidden-div">
-                        <div class="nav-hidden">
-                            <ul class="list-nav-hidden">
-                                <li><a href="/index.html" >INICIO</a></li>
-                                <li><a href="/nosotros.html">NOSOTROS</a></li>
-                                <li><a href="/contacto.html">CONTACTO</a></li>
-                                <li><a href="/productos.html">LISTA DE PRECIOS</a></li>
-                                <li><a href="/sucursales.html">SUCURSALES</a></li>
-                                <!-- <li><a href="/galeria.html">GALERIA</a></li>-->
-                            </ul>
-                        </div>
-                        <div class="rrss-div rrss-navhidden">
-                            <h3>SEGUINOS</h3>
-                            <div class="rrss-img">
-                                <a href="https://www.facebook.com/latradicion.carnicerias.9" target="_blank"><img src="/images/fb2.png" ></a>
-                                <a href="https://twitter.com/" target="_blank"><img src="/images/tw2.png" ></a>
-                                <a href="https://www.instagram.com/latradicioncarnicerias/" target="_blank"><img src="/images/inst2.png" ></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="cover-div"></div>-->
-                </div>
+          </nav>
+        </div>
 
-                <!-- fin nav desplegable -->
-                
-                <nav>
-                    <ul class="list-nav">
-                        <li><a href="/index.html" >INICIO</a></li>
-                        <li><a href="/nosotros.html">NOSOTROS</a></li>
-                        <li><a href="/contacto.html">CONTACTO</a></li>
-                        <li><a href="/productos.html">LISTA DE PRECIOS</a></li>
-                        <li><a href="/sucursales.html">SUCURSALES</a></li>
-                        <!-- <li><a href="/galeria.html">GALERIA</a></li>-->
-                    </ul>
-                </nav>
-
-            </div>
+      </div>
+  </header>
+  <!-- fin header -->
 
 
-        </section>
-        
-        <section class="main-suc">
-            <p class="tit-suc">NUESTRAS SUCURSALES</p>
-            <div class="grid-container-suc">
-                <div class="grid-item-suc suc vv"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1753.9238567716548!2d-65.7884216630511!3d-28.45400670724554!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94242898d66a1731%3A0xa2e0446a4bc63ff5!2sLA%20TRADICION%20CARNICERIAS!5e0!3m2!1ses-419!2sar!4v1652219039084!5m2!1ses-419!2sar" width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Virgen del Valle</iframe><h3 class="h3-iframe">Virgen del Valle N° 659</h3></div>
-                <div class="grid-item-suc suc pa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d541.1466436774878!2d-65.78273437386594!3d-28.4390673569131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94242618f67625b3%3A0x3c2a7919341dfc9f!2sPedro%20Agote%2C%20San%20Fernando%20del%20Valle%20de%20Catamarca%2C%20Catamarca!5e1!3m2!1ses-419!2sar!4v1652561970846!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><h3>Pedro Agote N° 2234</h3></div>
-                <div class="grid-item-suc suc gu"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1500.1091480160815!2d-65.78500534198331!3d-28.476399637920235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94242603e850440d%3A0xd4bb0f9a313465d9!2sLA%20TRADICION%20CARNICERIAS!5e1!3m2!1ses-419!2sar!4v1652219650244!5m2!1ses-419!2sar" width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><h3 class="h3-iframe">Av. Guemes esq. Ayacucho</h3></div>
-                <div class="grid-item-suc suc pe"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d375.07720240301376!2d-65.79284979735459!3d-28.462337385277028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94242890e40381a9%3A0x7c4c7871f85968c4!2sAv.%20Pres.%20Juan%20Domingo%20Per%C3%B3n%20130%2C%20San%20Fernando%20del%20Valle%20de%20Catamarca%2C%20Catamarca!5e1!3m2!1ses-419!2sar!4v1652219731209!5m2!1ses-419!2sar" width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><h3>Av. Peron esq. Julio Herrera</h3></div>
-                <div class="grid-item-suc suc br"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d834.4239656405508!2d-77.05136687084645!3d-12.071100588014064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8e38ac59791%3A0x4a556d126cb421b5!2sAv.%20Brasil%201202%2C%20Pueblo%20Libre%2015084%2C%20Per%C3%BA!5e1!3m2!1ses-419!2sar!4v1652219794569!5m2!1ses-419!2sar" width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><h3 class="h3-iframe">Av. Brasil esq. Av. Colombia</h3></div>
-                <div class="grid-item-suc suc fv"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d750.2208514760547!2d-65.74090827082348!3d-28.452974119794717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94242f43aa5dc0eb%3A0x181deaca6c0ed997!2sLa%20Tradici%C3%B3n%20Carnicerias!5e1!3m2!1ses-419!2sar!4v1652219851381!5m2!1ses-419!2sar" width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><h3 class="h3-iframe">Av. Felipe Varela <br>(frente monumento Felipe Varela)</h3></div>
+  <!-- inicio main -->
+  <main class="main container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-center">NUESTRAS SUCURSALES</h1>
+      </div>
+    </div>
+    <div class="row map-row">
+      <div class="col-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1753.9238567716548!2d-65.7884216630511!3d-28.45400670724554!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94242898d66a1731%3A0xa2e0446a4bc63ff5!2sLA%20TRADICION%20CARNICERIAS!5e0!3m2!1ses-419!2sar!4v1652219039084!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Virgen del Valle</iframe>
+        <h5 class="h5-iframe">Virgen del Valle N° 659</h5>
+      </div>
+      <div class="col-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d541.1466436774878!2d-65.78273437386594!3d-28.4390673569131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94242618f67625b3%3A0x3c2a7919341dfc9f!2sPedro%20Agote%2C%20San%20Fernando%20del%20Valle%20de%20Catamarca%2C%20Catamarca!5e1!3m2!1ses-419!2sar!4v1652561970846!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h5 class="h5-iframe">Pedro Agote N° 2234</h5>
+      </div>
+      <div class="col-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1500.1091480160815!2d-65.78500534198331!3d-28.476399637920235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94242603e850440d%3A0xd4bb0f9a313465d9!2sLA%20TRADICION%20CARNICERIAS!5e1!3m2!1ses-419!2sar!4v1652219650244!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h5 class="h5-iframe">Av. Guemes esq. Ayacucho</h5>
+      </div>
+      <div class="col-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d375.07720240301376!2d-65.79284979735459!3d-28.462337385277028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94242890e40381a9%3A0x7c4c7871f85968c4!2sAv.%20Pres.%20Juan%20Domingo%20Per%C3%B3n%20130%2C%20San%20Fernando%20del%20Valle%20de%20Catamarca%2C%20Catamarca!5e1!3m2!1ses-419!2sar!4v1652219731209!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h5 class="h5-iframe">Av. Peron esq. Julio Herrera</h5>
+      </div>
+      <div class="col-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d834.4239656405508!2d-77.05136687084645!3d-12.071100588014064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8e38ac59791%3A0x4a556d126cb421b5!2sAv.%20Brasil%201202%2C%20Pueblo%20Libre%2015084%2C%20Per%C3%BA!5e1!3m2!1ses-419!2sar!4v1652219794569!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h5 class="h5-iframe">Av. Brasil esq. Av. Colombia</h5>
+      </div>
+      <div class="col-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d750.2208514760547!2d-65.74090827082348!3d-28.452974119794717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94242f43aa5dc0eb%3A0x181deaca6c0ed997!2sLa%20Tradici%C3%B3n%20Carnicerias!5e1!3m2!1ses-419!2sar!4v1652219851381!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h5 class="h5-iframe">Av. Felipe Varela </h5>
+      </div>
+    </div>
+  </main>
+  <!-- fin main -->
 
-            </div>
+   <!-- inicio footer -->
+   <footer class="footer container">
+    <div class="row text-footer">
+        <div class="col-lg-4 col-sm-12 col-12 text-center" >
+            <img src="/images/logo-small.png"  alt="">
+            <p class="foot-p1">Dirección: Ayacucho N°1218 <br>
+            San Fernando del Valle de Catamarca <br>
+            Teléfono: +54 383 4455815 <br>
+            Email: latradicioncarnicerias@gmail.com</p>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-12 text-center">
+            <p class="p-titcon">INFORMACION</p>
+            <p class="p-con">
+              <a href="/nosotros.html">Nosotros</a><br>
+              <a href="/contacto.html">Contactos</a><br>
+              <a href="/productos.html">Lista de precios</a><br>
+              <a href="/sucursales.html">Sucursales</a><br>  
+            </p>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-12 rrss-div ">
+          <p class="p-titcon text-center">SEGUINOS</p>
+          <div class="rrss-img  d-flex justify-content-center align-items-center" >
+              <a href="https://www.facebook.com/latradicion.carnicerias.9" target="_blank" class="text-end"><img src="/images/fb2.png" width="50%"  ></a>
+              <a href="https://twitter.com/" target="_blank" class="text-center"><img src="/images/tw2.png" width="50%" ></a>
+              <a href="https://www.instagram.com/latradicioncarnicerias/" target="_blank" class="text-start"><img src="/images/inst2.png" width="50%" ></a>
+          </div>
+      </div>
+    </div>
+  </footer>
+  <!-- fin footer -->
 
-        </section>
+</div>
 
-        <section class="footer-suc">
-            <div class="fot-container">
-                <div class="contact-div">
-                    <img src="/images/logo-small.png" alt="">
-                    <p>
-                        Dirección: Ayacucho Nº1218 <br>
-                        San Fernando del Valle de Catamarca <br>
-                        Telefono: +54 383 4455815 <br>
-                        Email: latradicioncarnicerias@gmail.com     
-                    </p>
-                </div>
-                <div class="info-div">
-                    <h3>INFORMACION</h3>
-                    <p>
-                        <a href="/nosotros.html">Nosotros</a><br>
-                        <a href="/contacto.html">Contactos</a><br>
-                        <a href="/productos.html">Lista de precios</a><br>
-                        <a href="/sucursales.html">Sucursales</a><br>
-                        <!-- <a href="/galeria.html">Galeria</a><br>    -->   
-                    </p>
-                </div>
-                <div class="rrss-div">
-                    <h3>SEGUINOS</h3>
-                    <div class="rrss-img">
-                        <a href="https://www.facebook.com/latradicion.carnicerias.9" target="_blank"><img src="/images/fb2.png" ></a>
-                        <a href="https://twitter.com/" target="_blank"><img src="/images/tw2.png" ></a>
-                        <a href="https://www.instagram.com/latradicioncarnicerias/" target="_blank"><img src="/images/inst2.png" ></a>
-                    </div>
-                </div>
-    
-            </div>
-        </section>
-    <!-- </section> -->
+
+
+    <script src="https://kit.fontawesome.com/9571c5d6fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
