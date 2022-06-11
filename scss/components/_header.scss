@@ -1,0 +1,66 @@
+/* Formato header */
+
+.row-no-margin {
+    
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  
+}
+
+
+.header{
+    margin-bottom: 1%;
+    height: 5%; 
+    .contact-bar{
+        .contact-col{
+            text-align: center;
+            font-size: 14px;
+            .fas{
+                color: white;   
+            }
+            span{
+                color: white;
+            }
+        
+        }
+        .rrss-bar{
+            a{
+                .fab{
+                    color: white;
+                }
+            }
+        }
+    }
+    .barra-nav{
+        padding-top: 5px;  
+    }
+    
+}
+
+.navbar-nav{
+    a{
+    font-weight: bolder;
+    }
+}
+
+.compraweb{
+    div{
+        p{
+            padding-top: 5px;
+        }
+    }
+}
+
+.beneficios{
+    div{
+        p{
+         padding-left: 10px;
+     }
+    }
+}
+
+.col{
+    border: rgba(235, 230, 230, 0.953) 1px double ;
+    margin-top: 10px;
+}
+

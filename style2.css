@@ -125,6 +125,13 @@
     transition-duration: 2s;
 }
 
+/* .col:hover{
+    border-color: rgb(167, 24, 24);
+    border-width: 1px;
+    border-style: double;
+    transition-duration: 2s;
+} */
+
 .col p{
     margin-top: 5px;
     font-weight: bolder;

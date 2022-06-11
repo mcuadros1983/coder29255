@@ -1,0 +1,33 @@
+@import 'base/variables';
+
+$info-ben:(
+	logo-ben:$color-secundario,
+	promo-ben: $color-terciario,
+	
+);
+
+/*Creamos el bucle para usar lso valores del mapa */
+
+@each $ben, $color in $info-ben{
+	.#{$ben} {
+		background-color:$color;
+	}
+}
+
+$beneficios:(
+    dSup: 30px,
+    tFuente: 100%,
+    sFuente: oblique,
+    sVisual: flex,
+    izquierda: left,
+    aVert: 15rem,
+);
+
+.beneficios{
+	padding-top:map-get($beneficios, dSup);
+	font-size:map-get($beneficios, tFuente);
+	font-style:map-get($beneficios, sFuente);
+	display:map-get($beneficios, sVisual);
+    justify-content:map-get($beneficios, izquierda);
+    height:map-get($beneficios, aVert);
+}

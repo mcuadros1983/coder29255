@@ -6,54 +6,31 @@
 .header {
   margin-bottom: 1%;
   height: 5%; }
-  .header .contact-bar {
-    width: 100%;
-    margin-right: 0px;
-    margin-left: 0px;
-    background-color: #b40606; }
-    .header .contact-bar .contact-col {
-      text-align: center;
-      font-size: 14px; }
-      .header .contact-bar .contact-col .fas {
-        color: white; }
-      .header .contact-bar .contact-col span {
-        color: white; }
-    .header .contact-bar .rrss-bar a .fab {
+  .header .contact-bar .contact-col {
+    text-align: center;
+    font-size: 14px; }
+    .header .contact-bar .contact-col .fas {
       color: white; }
+    .header .contact-bar .contact-col span {
+      color: white; }
+  .header .contact-bar .rrss-bar a .fab {
+    color: white; }
   .header .barra-nav {
     padding-top: 5px; }
 
 .navbar-nav a {
   font-weight: bolder; }
 
-.compraweb {
-  padding-top: 30px;
-  font-weight: bolder; }
-  .compraweb div p {
-    padding-top: 5px; }
+.compraweb div p {
+  padding-top: 5px; }
 
-.beneficios {
-  padding-top: 30px;
-  font-size: 100%;
-  font-style: oblique;
-  display: flex;
-  justify-content: left;
-  height: 15rem; }
-  .beneficios div p {
-    padding-left: 10px; }
-  .beneficios .logo-ben {
-    background-color: #e9d7d2; }
-  .beneficios .promo-ben {
-    background-color: #dee4ef; }
+.beneficios div p {
+  padding-left: 10px; }
 
 .col {
   border: rgba(235, 230, 230, 0.953) 1px double;
   margin-top: 10px; }
-  .col p {
-    margin-top: 5px;
-    font-weight: bolder; }
 
-/* Estilos del footer */
 .footer {
   margin-top: 10%; }
   .footer .text-footer div .foot-p1 {
@@ -65,3 +42,34 @@
       color: black; }
   .footer .text-footer div .p-titcon {
     font-weight: bolder; }
+
+.compraweb {
+  padding: 30px;
+  font-weight: bolder; }
+
+.col p {
+  padding: 5px;
+  font-weight: bolder; }
+
+.contact-bar {
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px; }
+
+.contact-bar {
+  background-color: #b40606; }
+
+/*Creamos el bucle para usar lso valores del mapa */
+.logo-ben {
+  background-color: #e9d7d2; }
+
+.promo-ben {
+  background-color: #dee4ef; }
+
+.beneficios {
+  padding-top: 30px;
+  font-size: 100%;
+  font-style: oblique;
+  display: flex;
+  justify-content: left;
+  height: 15rem; }

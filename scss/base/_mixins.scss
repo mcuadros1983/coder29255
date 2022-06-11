@@ -1,0 +1,16 @@
+@import 'base/variables';
+
+@mixin formato($dissup, $estilofuente) {
+    padding: $dissup;
+    font-weight: $estilofuente;
+}
+
+.compraweb{
+    @include formato(30px, bolder);
+}
+
+.col{
+    p{
+        @include formato(5px, bolder); 
+    }
+}
