@@ -14,3 +14,47 @@
         @include formato(5px, bolder); 
     }
 }
+
+
+
+/* Keyframes */
+
+@mixin animate($animacion,$direccion,$duracion,$iteracion){
+    animation: $animacion;
+    animation-direction: $direccion;
+    animation-timing-function: $duracion;
+    animation-iteration-count: $iteracion;
+}
+
+@mixin keyframes($nombre){
+    @keyframes #{$nombre}{
+        @content;
+    }
+}
+
+.col{
+    &:hover{
+        border: $color-principal 1px double;
+        transition-duration: 2s;
+    }
+        img{
+            &:hover{
+              @include keyframes(bounce){
+                    from {
+                         transform: translate3d(0, 0, 0);
+                    }
+                    to {
+                      transform: translate3d(0, 10px, 0);
+                    }
+                }
+                @include animate(
+                    bounce 0.5s, 
+                    alternate, 
+                    cubic-bezier(.5, 0.05, 1, .5),
+                    infinite )
+
+        }
+
+    }
+}
+

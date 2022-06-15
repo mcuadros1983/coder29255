@@ -1,4 +1,5 @@
-/* Formato header */
+/* Estilo header */
+@import 'main';
 
 .row-no-margin {
     
@@ -24,6 +25,9 @@
         
         }
         .rrss-bar{
+            @media screen and #{$grande}{
+                display: none;
+            }
             a{
                 .fab{
                     color: white;
@@ -63,4 +67,27 @@
     border: rgba(235, 230, 230, 0.953) 1px double ;
     margin-top: 10px;
 }
+
+
+/* Media querys header -- */
+
+
+
+.barra-nav{
+    div {
+        img{
+            @media screen and #{$mediana}{
+            height: 8rem; 
+            }
+        }
+    
+    }
+}
+
+#phone, #phone-text{
+    @media screen and #{$pequeña}{
+        display: none;
+    }
+}
+
 

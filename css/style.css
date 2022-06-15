@@ -1,4 +1,37 @@
-/* Formato header */
+/* Estilo header */
+/* Media querys interpolaciones variables index*/
+/* media queries main index*/
+@media screen and (max-width: 768px) {
+  #benefits {
+    display: none; } }
+
+/* Estilo main pagina nosotros */
+.par-nos {
+  line-height: 30px; }
+
+/* Estilo main pagina productos/lista de precios */
+.tit-pro {
+  padding: 5% 0; }
+  .tit-pro div {
+    background-color: #b40606; }
+    .tit-pro div p {
+      margin: 2px 0;
+      color: white;
+      font-weight: bolder; }
+
+.nom-prod1 {
+  font-size: 3vh;
+  text-align: center;
+  padding-top: 20px;
+  line-height: 1.5em; }
+
+/* Estilo main Sucursales */
+.map-row div {
+  padding-top: 8%; }
+  .map-row div .h5-iframe {
+    font-size: 95%;
+    font-weight: bolder; }
+
 .row-no-margin {
   margin-left: 0 !important;
   margin-right: 0 !important; }
@@ -13,6 +46,9 @@
       color: white; }
     .header .contact-bar .contact-col span {
       color: white; }
+  @media screen and (max-width: 992px) {
+    .header .contact-bar .rrss-bar {
+      display: none; } }
   .header .contact-bar .rrss-bar a .fab {
     color: white; }
   .header .barra-nav {
@@ -31,6 +67,15 @@
   border: rgba(235, 230, 230, 0.953) 1px double;
   margin-top: 10px; }
 
+/* Media querys header -- */
+@media screen and (max-width: 768px) {
+  .barra-nav div img {
+    height: 8rem; } }
+
+@media screen and (max-width: 575px) {
+  #phone, #phone-text {
+    display: none; } }
+
 .footer {
   margin-top: 10%; }
   .footer .text-footer div .foot-p1 {
@@ -43,6 +88,42 @@
   .footer .text-footer div .p-titcon {
     font-weight: bolder; }
 
+.disclaimer {
+  display: none; }
+
+/* Media querys interpolaciones variables index*/
+/* media queries main index*/
+@media screen and (max-width: 768px) {
+  #benefits {
+    display: none; } }
+
+/* Estilo main pagina nosotros */
+.par-nos {
+  line-height: 30px; }
+
+/* Estilo main pagina productos/lista de precios */
+.tit-pro {
+  padding: 5% 0; }
+  .tit-pro div {
+    background-color: #b40606; }
+    .tit-pro div p {
+      margin: 2px 0;
+      color: white;
+      font-weight: bolder; }
+
+.nom-prod1 {
+  font-size: 3vh;
+  text-align: center;
+  padding-top: 20px;
+  line-height: 1.5em; }
+
+/* Estilo main Sucursales */
+.map-row div {
+  padding-top: 8%; }
+  .map-row div .h5-iframe {
+    font-size: 95%;
+    font-weight: bolder; }
+
 .compraweb {
   padding: 30px;
   font-weight: bolder; }
@@ -50,6 +131,23 @@
 .col p {
   padding: 5px;
   font-weight: bolder; }
+
+/* Keyframes */
+.col:hover {
+  border: #b40606 1px double;
+  transition-duration: 2s; }
+
+.col img:hover {
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
+  animation-iteration-count: infinite; }
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0); }
+  to {
+    transform: translate3d(0, 10px, 0); } }
 
 .contact-bar {
   width: 100%;
@@ -73,3 +171,6 @@
   display: flex;
   justify-content: left;
   height: 15rem; }
+
+.productos {
+  padding-top: 30px; }

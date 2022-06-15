@@ -1,0 +1,54 @@
+@import 'base/variables';
+
+/* Media querys interpolaciones variables index*/
+
+$pequeña:(max-width:575px);
+$mediana:(max-width:768px);
+$grande:(max-width:992px);
+
+
+/* media queries main index*/
+
+#benefits{
+    @media screen and #{$mediana}{
+        display: none;
+    }
+}
+
+/* Estilo main pagina nosotros */
+
+.par-nos{
+    line-height: $padppal;
+}
+
+/* Estilo main pagina productos/lista de precios */
+
+.tit-pro {
+        padding: 5% 0;
+        div{
+        background-color:$color-principal;
+        p{
+             margin: 2px 0;
+            color: white;
+            font-weight: $eFuente;
+        }
+    }
+}
+
+.nom-prod1{
+    font-size: 3vh;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 1.5em;
+ 
+}
+
+/* Estilo main Sucursales */
+
+.map-row div{
+    padding-top: 8%;
+    .h5-iframe{
+        font-size: 95%;
+        font-weight: $eFuente;
+    }
+}

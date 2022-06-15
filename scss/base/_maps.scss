@@ -15,7 +15,7 @@ $info-ben:(
 }
 
 $beneficios:(
-    dSup: 30px,
+    dSup: $padppal,
     tFuente: 100%,
     sFuente: oblique,
     sVisual: flex,
@@ -30,4 +30,8 @@ $beneficios:(
 	display:map-get($beneficios, sVisual);
     justify-content:map-get($beneficios, izquierda);
     height:map-get($beneficios, aVert);
+}
+
+.productos{
+	padding-top: $padppal;
 }
