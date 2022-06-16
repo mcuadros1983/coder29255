@@ -7,6 +7,8 @@
     
 }
 
+/*estilo header con extends*/
+
 .contact-bar{
     @extend %brandbar;
     background-color: $color-principal

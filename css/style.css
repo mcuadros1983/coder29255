@@ -1,6 +1,9 @@
 /* Estilo header */
 /* Media querys interpolaciones variables index*/
-/* media queries main index*/
+/* estilo y media queries main index*/
+.productos {
+  padding-top: 30px; }
+
 @media screen and (max-width: 768px) {
   #benefits {
     display: none; } }
@@ -92,7 +95,10 @@
   display: none; }
 
 /* Media querys interpolaciones variables index*/
-/* media queries main index*/
+/* estilo y media queries main index*/
+.productos {
+  padding-top: 30px; }
+
 @media screen and (max-width: 768px) {
   #benefits {
     display: none; } }
@@ -124,6 +130,7 @@
     font-size: 95%;
     font-weight: bolder; }
 
+/*estilo y keyframes index*/
 .compraweb {
   padding: 30px;
   font-weight: bolder; }
@@ -154,10 +161,11 @@
   margin-right: 0px;
   margin-left: 0px; }
 
+/*estilo header con extends*/
 .contact-bar {
   background-color: #b40606; }
 
-/*Creamos el bucle para usar lso valores del mapa */
+/*Mapping en main de index */
 .logo-ben {
   background-color: #e9d7d2; }
 

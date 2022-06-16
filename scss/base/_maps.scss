@@ -6,7 +6,7 @@ $info-ben:(
 	
 );
 
-/*Creamos el bucle para usar lso valores del mapa */
+/*Mapping en main de index */
 
 @each $ben, $color in $info-ben{
 	.#{$ben} {
